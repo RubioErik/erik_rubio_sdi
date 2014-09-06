@@ -13,9 +13,10 @@ var open = true;
 
 // My confirms 
 
-open = confirm("Is the shop open today? \nChoose OK for Yes, or select cancel for No.");
 myCar = prompt("Enter your car model:");
 numberOfTrips = parseFloat(prompt("How many trips do you usually take per month?"));
+open = confirm("Is the shop open today? \nChoose OK for Yes, or select cancel for No.");
+
 
 console.log(numberOfTrips);
 
