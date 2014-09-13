@@ -11,6 +11,14 @@ var secondNumber;
 var operation;
 var returnedNumber;
  
+var divide   = function (first, second) {
+	
+	var mySolution4;
+	var mySolution4 = (firstNumber / secondNumber);
+	
+	return mySolution4;
+	
+};
 var multiply = function (first, second) {
 	
 	var mySolution3;
@@ -39,6 +47,7 @@ var addition = function (first, second) {
 returnedNumber = addition();
 returnedNumber = subtraction();
 returnedNumber = multiply();
+returnedNumber = divide();
 
 firstNumber = parseFloat(prompt("What is the first number?"));
 console.log(firstNumber);
@@ -53,5 +62,7 @@ console.log(secondNumber);
 returnedNumber = addition(firstNumber, secondNumber);
 returnedNumber = subtraction(firstNumber, secondNumber);
 returnedNumber = multiply(firstNumber, secondNumber);
+returnedNumber = divide(firstNumber, secondNumber);
+
 console.log("= " + returnedNumber);
 
