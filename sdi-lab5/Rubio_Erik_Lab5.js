@@ -11,6 +11,13 @@ var secondNumber;
 var operation;
 var returnedNumber;
 
+var subtraction = function(first, second) {
+	
+	var mySolution2;
+	var mySolution2 = (firstNumber - secondNumber);
+	
+	return mySolution2;
+};
 var addition = function (first, second) {
 	
 	var mySolution;
@@ -22,16 +29,17 @@ var addition = function (first, second) {
 	
 };
 returnedNumber = addition();
-
+returnedNumber = subtraction();
 firstNumber = parseFloat(prompt("What is the first number?"));
 console.log(firstNumber);
 
-operation = prompt("Type + and click Okay");
+operation = prompt("Select your operation, type +,-,*, or /");
 console.log(operation);
 
 secondNumber = parseFloat(prompt("What is the second number?"));
 console.log(secondNumber);
 
 returnedNumber = addition(firstNumber, secondNumber);
-console.log("= " + returnedNumber + ".");
+returnedNumber = subtraction(firstNumber, secondNumber);
+console.log("= " + returnedNumber);
 
