@@ -6,11 +6,30 @@
 
 
 
+ /*var seasons = "Spring Summer Fall Winter";
+    
+    var seasonsFunc = function(and,comma)
+    {
+        var Sep1 = " and ";
+        var Sep2 = ",";
+        
+        console.log("First way to say the seasons.");
+        seasons2 = seasons.split(" ").join(Sep1);
+        console.log(seasons2);
+        
+        console.log("Second way to say the seasons.");
+        seasons3 = seasons2.split(Sep1).join(Sep2);
+      	console.log(seasons3);    
+    };
+    
+seasonsFunc();
+*/
+
 
 
 // Problem 1
-
-var email = "erubio@fullsail.edu";
+/*
+var email = prompt("Enter your email address");
 
 var emailFunc = function(myString) { 
 	
@@ -25,7 +44,7 @@ var emailFunc = function(myString) {
 	periodCheck = ".";
 	
 	
-	if (myString.indexOf(atCheck) > 0) {
+	if (myString.lastIndexOf(atCheck) > 1) {
 		console.log("You have an @ symbol, you have a valid email address");
 		
 	} else { 
@@ -41,7 +60,7 @@ var emailFunc = function(myString) {
 	
 	};
 	
-	if (myString.indexOf(" ") === 0) {
+	if (myString.lastIndexOf(" ") >= 0) {
 	console.log("There is a space found in your email address, it is invalid");
 	
 	
@@ -52,5 +71,15 @@ var emailFunc = function(myString) {
 	
 }; 
 
-emailFunc(email); 
+emailFunc(email); */
+
+
+
+
+
+
+
+
+
+
 
