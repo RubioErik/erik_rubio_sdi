@@ -9,16 +9,27 @@
 
 var pBall = function() {
 	
-	var powerBall = [];
-	
 	for(i = 0; i < 4; i++){
 		
-		powerBall= Math.floor(Math.random([i]) *59);
-		console.log(powerBall);
-		
-	}
-	powerBall.push(Math.floor(Math.random([i]) *35));	
+	var pBalls4 = Math.floor(Math.random() * 59);
+	console.log(pBalls4);
 	
+	}	
+	
+	var pBalls5 = Math.floor(Math.random() * 35);
+	console.log(pBalls5);
 };
 
-pBall();
+pBall(); 
+
+
+
+
+
+
+
+
+
+
+
+
