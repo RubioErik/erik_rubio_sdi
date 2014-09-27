@@ -45,15 +45,37 @@ multiples();
 
 var pBall = function() {
 	
+	
+	
+	
+	
 	for(i = 0; i < 5; i++){
+	
+	var pballR = [i];
+	
+	pBallR = pBalls4;
+	
+	var pBalls4 = Math.round(Math.random() *59);
 		
-	var pBalls4 = (Math.round(Math.random() * 59));
+	
 	console.log(pBalls4);
 	
 	}	
 	
 	var pBalls5 = Math.floor(Math.random() * 35);
 	console.log(pBalls5);
+	
+	
+	if (pBallR[i] !== pBallR[i]) {
+		
+		console.log("Same number appeared more than once! please randomize again");
+		
+		
+	} else{
+			
+
+	}
+	
 };
 
 pBall(); 
